@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { faG } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Header({ language }) {
   return (
     <div className="contaier">
       <div className="headerContainer">
-        <img src="SV.png" className="logoGurkan" />
+      <FontAwesomeIcon icon={faG} size="xsm" className="logoGurkan" style={{color: "#7B61FF",}} />
         <div className="nav">
           {language === "en" ? (
             <Link to="skillsScroll" smooth={true} duration={500}>

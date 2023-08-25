@@ -28,12 +28,12 @@ export default function ModeSwitch({
           <input type="checkbox" onClick={handleClick} />
           <span className="slider round"></span>
         </label>
-        <div className="modeText">{theme ? "Dark Mode" : "Light Mode"}</div>
+        <div className="modeText">{theme ? "Light Mode" : "Dark Mode"}</div>
         <div className="modeText">|</div>
         <div className="modeText">
           {language === "en" ? (
             <span id="lang" onClick={handleLanguageChange}>
-              TURKISH
+              TÜRKÇE'YE GEÇ
             </span>
           ) : (
             <span id="lang" onClick={handleLanguageChange}>

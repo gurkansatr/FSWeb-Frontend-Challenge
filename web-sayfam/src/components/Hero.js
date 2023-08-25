@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+
 
 export default function Hero({ language }) {
   return (
@@ -47,7 +50,7 @@ export default function Hero({ language }) {
               </Link>
             </div>
             <div className="github-button">
-              <img src="github.png" alt="github" className="logoBio" />{" "}
+              <FontAwesomeIcon icon={faGithub} size="xlg" style={{ color: "#251e50", }} />{" "}
               <a
                 href="https://github.com/gurkansatr"
                 target="_blank"
@@ -57,8 +60,8 @@ export default function Hero({ language }) {
               </a>
             </div>
             <div className="linkedin-button">
-              
-              <img src="LinkedIn.png" alt="linkedin" className="logoBio" />
+
+            <FontAwesomeIcon icon={faLinkedin} size="lg" style={{ color: "#251e50", }}/>
               <a
                 href="https://www.linkedin.com/in/g%C3%BCrkan-sat%C4%B1r-70261710a/"
                 target="_blank"
@@ -69,7 +72,7 @@ export default function Hero({ language }) {
             </div>
           </div>
         </div>
-        <img className="bio-image" src="gurkan.jpeg" alt="profile" />
+        <img className="bio-image" src="../img/img1.jpg" alt="profile" />
       </div>
     </div>
   );

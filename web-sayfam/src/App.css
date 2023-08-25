@@ -144,8 +144,11 @@ body {
 }
 
 .logoGurkan {
-  width: 10rem;
+  width: 63px;
+  height: 62px;
   border-radius: 40px;
+  background-color: #EEEBFF;
+  margin-left: 180px;
 }
 
 .nav {
@@ -212,8 +215,8 @@ body {
 }
 
 .bio-image {
-  width: 22rem;
-  height: auto;
+  width: 476px;
+  height: 375px;
   box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
     0px 18px 88px -4px rgba(24, 39, 75, 0.14);
   border-radius: 18px;
@@ -285,6 +288,7 @@ body {
   cursor: pointer;
 }
 .linkedin-button:hover {
+  
   background-color: #c4e2e4;
   cursor: pointer;
 }
@@ -302,6 +306,7 @@ body {
   border-radius: 6px;
 }
 .linkedin-button {
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -316,7 +321,7 @@ body {
 }
 .buttons a {
   font-size: 1.125rem;
-  color: #6b7280;
+  color: #3730A3;
   text-decoration: none;
 }
 
@@ -553,9 +558,9 @@ body {
   line-height: 16px;
   color: #4338CA;
 }
-.projectsPhotos {
-  width: 18.75rem;
-  height: 11.25rem;
+.projectImg {
+  width: 300px;
+  height: 180px;
 }
 /* Projects Part */
 
@@ -606,7 +611,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.05em;
   text-decoration-line: underline;
-  color: #4b458a;
+  color: #AF0C48;
+  margin-top: 5rem;
 }
 .links-footer p {
   font-style: normal;
@@ -614,7 +620,7 @@ body {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0.01em;
-  color: #f27260;
+  color: #0A0A14;
 }
 .footerGithub {
   font-style: normal;
@@ -622,7 +628,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   letter-spacing: 0.01em;
-  color: #f27250;
+  color: #17D18B;
   text-decoration: none;
 }
 .linkedinFooter {
@@ -631,7 +637,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   letter-spacing: 0.01em;
-  color: #f27240;
+  color: #0BA6F6;
   text-decoration: none;
 }
 
@@ -755,6 +761,6 @@ input:checked + .slider:before {
 }
 
 .dark .footerContainer {
-  background-color: #333; /* Dark mode arkaplan rengi */
+  background-color: #141414; /* Dark mode arkaplan rengi */
   color: #fff; /* Dark mode metin rengi */
 }

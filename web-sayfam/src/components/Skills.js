@@ -9,7 +9,7 @@ const skillsData = [
   {
     name: "React.Js",
     description:
-      "React.js is a popReact (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.ular open-source JavaScript library used for building user interfaces (UIs). It allows developers to create reusable UI components.",
+      "React.js is a popReact (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components.",
   },
 
   {
@@ -29,7 +29,7 @@ const skillsDataTr = [
   {
     name: "React.Js",
     description:
-      "React.js, bir popReact'tir (React.js veya ReactJS olarak da bilinir), bileşenlere dayalı kullanıcı arayüzleri oluşturmak için ücretsiz ve açık kaynaklı bir ön uç JavaScript kitaplığıdır. Meta (eski adıyla Facebook) ve bir topluluk tarafından sürdürülür. kullanıcı arabirimleri (UI'ler) oluşturmak için kullanılan bireysel geliştiriciler ve company.ular açık kaynaklı JavaScript kitaplığı. Geliştiricilerin yeniden kullanılabilir UI bileşenleri oluşturmasına olanak tanır.",
+      "React.js (ayrıca React veya ReactJS olarak da bilinir), bileşenlere dayalı kullanıcı arayüzleri oluşturmak için kullanılan popüler, ücretsiz ve açık kaynaklı bir ön yüz JavaScript kütüphanesidir.",
   },
 
   {

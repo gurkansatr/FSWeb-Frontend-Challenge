@@ -2,32 +2,32 @@ import React from "react";
 
 const projectDataTr = [
   {
-    projectName: "Pizza Sipariş",
-    projectImg: "pizza.png",
+    projectName: "Alışveriş Sepeti",
+    projectImg: "../img/img2.jpg",
     projectDescription:
-      "Pizza Sipariş Projesi, React, React Router Dom, CSS ve  Yup ile oluşturulmuştur ve online pizza siparişi için kullanıcılara sorunsuz bir deneyim sunmayı hedeflemektedir. Kalite ve güvenilirlik için proje Cypress ile entegre edilmiştir.",
-    projectProgrammes: ["react", "axios", "cypress"],
-    projectUrl: "https://pizza-order-project.netlify.app/",
-    gitHub:""
+      "Bu proje React, React Router Dom, localStorage kütüphaneleri kullanılarak geliştirilmiş, kullanımı oldukça basit bir uygulamadır. Bu proje kullanıcılarına çok çaba sarfetmeden alışveriş sepetlerini oluşturmalarını amaçlamaktadır.",
+    projectProgrammes: ["react", "redux", "axios"],
+    projectUrl: "https://fsweb-s11g1-shopping-cart-2q9nxtozr-gurkansatr.vercel.app/",
+    gitHub:"https://github.com/gurkansatr/fsweb-s11g1-shopping-cart"
   },
   {
-    projectName: "Random Şakalar:)",
-    projectImg: "joke.png",
+    projectName: "Friends",
+    projectImg: "../img/img33.jpg",
     projectDescription:
-      "Rastgele Şaka Projesi, React, React Router Dom, localStorage ve Toastify kütüphanesi kullanılarak geliştirilen keyifli bir uygulamadır. Bu proje, kullanıcılara etkileşimli ve eğlenceli rastgele şakalar sunarak eğlence getirmeyi amaçlamaktadır.",
-    projectProgrammes: ["react", "localStorage", "toastify"],
-    projectUrl: "https://jokes-project-blond.vercel.app/",
-    gitHub: "",
+      "Bu proje React, Redux, LocalStorage, useContext kütüphaneleri kullanılarak geliştirilmiştir.Kullanıcı adı ve parola kontrolü olan arkadaş listenizi düzenleyebileceğiniz ekleme ve çıkarma işlemi yapabileceğiniz bir uygulamadır.",
+    projectProgrammes: ["react", "localStorage", "Redux"],
+    projectUrl: "https://fsweb-s11g2-client-auth-friends-one.vercel.app/",
+    gitHub: "https://github.com/gurkansatr/fsweb-s11g2-client-auth-friends",
   },
 
   {
-    projectName: "Minnet Günlüğü",
-    projectImg: "diary.png",
+    projectName: "Hesap Makinesi",
+    projectImg: "../img/img8.jpg",
     projectDescription:
-      "Minnet Günlüğü Projesi, React, Redux Thunk ve Toastify ile geliştirilmiş motivasyonel bir uygulamadır.Bu proje, kullanıcılara ilham vermek için hazırlanmıştır, şükran zihniyeti geliştirmelerine ve pozitifliğin gücünden yararlanmalarına olanak tanır, platform sağlar.",
-    projectProgrammes: ["react", "redux", "redux thunk"],
-    projectUrl: "https://grateful-diary.vercel.app/",
-    gitHub: "",
+      "Hesap Makinesi projesinde React, Reducer gibi araçları kullanarak basit bir hesap makinesi yaratılmıştır.Bu proje kullanıcıları hesaplamalarını daha basit ve keyifli bir şekilde yapabilsinler düşüncesiyle geliştirilmiştir.",
+    projectProgrammes: ["react", "redux", "reducer"],
+    projectUrl: "https://vercel.com/gurkansatr/fsweb-s10g1-reducer-calculator",
+    gitHub: "https://github.com/gurkansatr/fsweb-s10g1-reducer-calculator",
   },
 
 
@@ -35,31 +35,31 @@ const projectDataTr = [
 
 const projectData = [
   {
-    projectName: "Pizza Order",
-    projectImg: "pizza.png",
+    projectName: "Shopping Cart",
+    projectImg: "../img/img2.jpg",
     projectDescription:
-      "Pizza Order Project: Created with React, React Router Dom, CSS, and React hook form, aims to provide a seamless user experience for ordering pizzas online.For quality and reliability, the project is integrated with Cypress.",
-    projectProgrammes: ["react", "axios", "cypress"],
-    projectUrl: "https://pizza-order-project.netlify.app/",
-    gitHub: "https://github.com/sevvalbayrak/fsweb-s7-challenge-pizza",
+      "This project has been developed using React, React Router Dom, and localStorage libraries. It is a straightforward application to use. The aim of this project is to enable users to create their shopping carts without much effort.",
+    projectProgrammes: ["react", "redux", "axios"],
+    projectUrl: "https://fsweb-s11g1-shopping-cart-2q9nxtozr-gurkansatr.vercel.app/",
+    gitHub: "https://github.com/gurkansatr/fsweb-s11g1-shopping-cart",
   },
   {
-    projectName: "Random Jokes:)",
-    projectImg: "joke.png",
+    projectName: "Friends",
+    projectImg: "../img/img33.jpg",
     projectDescription:
-      "The Random Jokes Project is a delightful application developed using React, React Router Dom, localStorage, and the Toastify library. This project aims to entertain users with interactive and engaging random jokes, bringing laughter and amusement.",
-    projectProgrammes: ["react", "localStorage", "toastify"],
-    projectUrl: "https://jokes-project-blond.vercel.app/",
-    gitHub: "https://github.com/sevvalbayrak/fsweb-s10g4-thunk-and-apis",
+      "This project has been developed using React, Redux,useContext and LocalStorage libraries. It's an application where you can manage your friend list with username and password checks, and perform addition and removal operations.",
+    projectProgrammes: ["react", "localStorage", "Redux"],
+    projectUrl: "https://fsweb-s11g2-client-auth-friends-one.vercel.app/",
+    gitHub: "https://github.com/gurkansatr/fsweb-s11g2-client-auth-friends",
   },
   {
-    projectName: "Favorite Movies",
-    projectImg: "films.png",
+    projectName: "Calculator",
+    projectImg: "../img/img8.jpg",
     projectDescription:
-      "The Favorite Movies Project is a captivating application developed with React, CRUD operations, localStorage, and axios. This project aims to provide users with an immersive and enjoyable experience by allowing them to manage and explore their favorite movies effortlessly.",
-    projectProgrammes: ["react", "CRUD", "axios"],
-    projectUrl: "https://films-project.vercel.app/movies",
-    gitHub: "https://github.com/sevvalbayrak/fsweb-s11g3-crud-filmler",
+      "In the Calculator project, a basic calculator has been built using tools like React and Reducer. This project has been developed with the intention of enabling users to perform their calculations in a simpler and more enjoyable manner.",
+    projectProgrammes: ["react", "redux", "reducer"],
+    projectUrl: "https://vercel.com/gurkansatr/fsweb-s10g1-reducer-calculator",
+    gitHub: "https://github.com/gurkansatr/fsweb-s10g1-reducer-calculator",
   },
   
 ];
